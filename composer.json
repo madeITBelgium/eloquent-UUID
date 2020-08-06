@@ -1,0 +1,27 @@
+{
+    "version": "1.0.0",
+    "name": "madeitbelgium/eloquent-uuid",
+    "description": "Laravel Eloquent UUID.",
+    "keywords": ["laravel", "eloquent", "uuid"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tjebbe Lievens",
+            "email": "tjebbe.lievens@madeit.be"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/support": "~5.0|6.*|7.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "php-coveralls/php-coveralls": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MadeITBelgium\\Uuid\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
